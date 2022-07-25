@@ -1,9 +1,9 @@
-import { styled } from '@mui/system';
+import styled from '@emotion/styled';
 
-const Image = styled('img')({
-  width: '10%',
-  height: '10%',
-  margin: 4,
-});
+const Image = styled.img`
+  width: 10%;
+  height: 10%;
+  margin: 4px;
+`;
 
 export { Image };
